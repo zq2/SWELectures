@@ -1,0 +1,50 @@
+CSC 4350 – Computer
+Networks
+Fall 2024 Semester
+Lecture 1 – August 22, 2024
+Course Introduction
+Agenda
+• Syllabus and policies
+• Start Ch. 1…
+Note
+• Material used in this lecture is heavily borrowed from Kurose & Ross’
+“Computer Networking: A Top Down Approach, 8th Edition”
+• Also: assuming no prior knowledge of networks
+What Is The Internet?
+• Hardware/Software Discussion
+• Networking Infrastructure for Services and Distributed Applications
+Figure 1.1 – Some Pieces of the
+Internet
+Nuts and Bolts/Hardware and
+Software
+• Internet – computer network that connects many computing devices
+throughout the world
+• Used to be desktop machines, primarily
+• With advent of smartphones, tablets, etc. – more ways to connect
+• More traditional “non-Internet things” are being connected to the
+internet
+• Gaming consoles
+• Glasses
+• Cars
+• Watches
+• All of these devices are called hosts or end systems
+• 18 billion devices connected in 2017; 28.5 billion in 2022?
+Hardware and Software
+• End systems are connected via communication links and packet switches
+• Many different types of communication links from many different media
+• Transmission rate of a link is measured in bits/second; different types of links can
+transmit data at different rates
+• Packets – resulting packages of information are sent through the network to the
+destination end system
+• Data is then reassembled when received
+• Packet switches – takes a packet arriving on one of its incoming communication
+links and forwards that package on one of its outgoing communication links
+• Routers
+• Link-layer switches
+Packet Switches
+• Both types of switches forward packets toward their ultimate
+destinations
+• Link-layer – used in access networks
+• Router – network core
+• Route/path – sequence of communication links and packet switches
+traversed by a packet from sender to receiver
